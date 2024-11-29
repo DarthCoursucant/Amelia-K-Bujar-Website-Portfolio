@@ -1,0 +1,147 @@
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    /*min-height: 100%; /* Use if set on container, not body */
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header.page-header, footer.page-footer {
+    flex-grow: 0; /* 0. Only takes the place it needs */
+    flex-shrink: 0;
+    color: #fafafa;
+    padding: 10px;
+  }
+  
+  main.page-body {
+    flex-grow: 1; /* 1. Let main take all available space */
+    padding: 0 10px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1476445704028-a36e0c798192?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+}
+
+.page-header, .header-links {
+    display: flex;
+}
+
+.header-page-names a, #first-header a, #second-header a, #last-header a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+.header-page-names {
+    width: 500px;
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+.header-page-names a {
+  font-size: 40px;
+}
+
+#first-header, #second-header, #last-header {
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.menu-location img {
+  width: 45px;
+  height: 45px;
+}
+
+.menu-location img {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+#first-header {
+  margin-left: 600px;
+  margin-right: -10px;
+}
+
+/*Menu Code */
+#mymenu {
+  width: 0;
+}
+
+.menubar {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1a472a;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.menubar a {
+  padding: 15px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: "Whisper", cursive;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+
+.menubar a:hover {
+  color: #f1f1f1;
+}
+
+.menubar {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#mymenu img {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.menubar h2 {
+  font-family: "Whisper", cursive;
+  font-size: 50px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.flex-menu {
+  display: none;
+}
