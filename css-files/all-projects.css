@@ -61,3 +61,14 @@ body {
 .second-project-listing, .third-project-listing {
     margin-left: 50px;
 }
+
+.overlay p {
+    font-size: 25px;
+    width: 150px;
+    padding-left: 20px;
+}
+
+.overlay li {
+    font-size: 25px;
+    width: 150px;
+}
