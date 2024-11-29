@@ -27,7 +27,7 @@ button {
     width: 230px;
     height: 50px;
     font-size: 20px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.619);
     border: 2px solid #000;
     font-family: "Whisper", cursive;
     margin-top: 50px;
