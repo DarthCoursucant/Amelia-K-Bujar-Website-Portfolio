@@ -1,0 +1,26 @@
+.quickly-infomation-thing {
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+}
+
+.contact-container {
+    background-color: rgb(255 255 255 / 0.5);
+    box-shadow: 9px 9px 9px rgba(70, 212, 233, 0.8);
+    width: 1000px;
+    margin-left: 250px;
+    text-align: center;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+#contact-links a {
+    text-decoration: none;
+    color: red;
+}
+
+#contact-header h1 {
+    font-family: "Whisper", cursive;
+    font-size: 50px;
+    text-transform: capitalize;
+}
