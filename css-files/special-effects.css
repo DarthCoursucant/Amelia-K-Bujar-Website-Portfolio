@@ -1,0 +1,51 @@
+#header-index h1:hover, .header-page-names a:hover, #title-container h1:hover, .about-me-page-main-header h1:hover, #header-about-one h1:hover, #header-about:hover, #header-about-twice h1:hover, .quickly-infomation-thing h1:hover, .index-main-text h2:hover, #first-header a:hover, #second-header a:hover, #last-header a:hover, #projects-index-body-link a:hover, #about-index-body-link a:hover, #hire-index-body-link a:hover, #certificates-index-body-link a:hover, .page-title-body h1:hover, #paragraph-about p:hover, #paragraph-about-one p:hover, #paragraph-about-twice p:hover {
+    color: #44A566;
+}
+
+#about-text-container h1:hover, #about-text-container p:hover {
+    color: #64C7FF;
+}
+
+.square-eyes-project-preview:hover, .community-science-museum-preview:hover, .gamehub-preview:hover, .connect-hub-preview:hover, .the-secrets-of-the-morgue-preview:hover {
+    transform: scale(1.2);
+    box-shadow: 11px 11px 11px 11px rgba(129, 129, 129, 0.5);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+#contact-header h1:hover, #contact-links p:hover {
+    color: #000000;
+}
+
+.contact-container:hover {
+    box-shadow: 9px 9px 9px rgba(232, 232, 232, 0.8);
+}
+
+#contact-links a:hover {
+    color: #51E744;
+}
+
+#projects-index-body-link:hover, #about-index-body-link:hover, #hire-index-body-link:hover, #certificates-index-body-link:hover, .show-certifactes-button:hover, #first-header:hover, #second-header:hover, #last-header:hover  {
+    transform: scale(1.2);
+}
+
+.certicate-only img:hover, .header-page-names:hover {
+    transform: scale(1.1);
+}
+
+.header-page-names:hover {
+    margin-left: 20px;
+}
+
+#header-about h1:hover, #header-about-one h1:hover, #header-about-twice h1:hover {
+    transform: scale(1.2);
+    margin-left: 130px;
+}
+
+#paragraph-about p:hover, #paragraph-about-one p:hover, #paragraph-about-twice p:hover {
+    transform: scale(1.1);
+    margin-left: 60px;
+
+}
