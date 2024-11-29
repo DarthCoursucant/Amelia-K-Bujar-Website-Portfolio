@@ -1,0 +1,38 @@
+.choice-button-choices {
+    display: flex;
+}
+
+.certicate-only img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.container {
+    display: none;
+  }
+
+.certicate-only {
+    margin-left: 40%;
+}
+
+#title-container {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Whisper", cursive;
+}
+
+
+button {
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    font-family: "Whisper", cursive;
+    margin-top: 50px;
+}
+
+.show-certifactes-button {
+    margin-left: 200px;
+}
