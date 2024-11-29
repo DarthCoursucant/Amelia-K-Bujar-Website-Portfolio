@@ -1,0 +1,47 @@
+#projects-index-body-link a, #about-index-body-link a, #hire-index-body-link a, #certificates-index-body-link a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.buttons-index {
+    display: flex;
+    margin-top: 50px;
+}
+
+#about-index-body-link, #hire-index-body-link, #certificates-index-body-link {
+    margin-left: 100px;
+}
+
+#projects-index-body-link {
+    margin-left: 250px;
+}
+
+.intro-index-container {
+    margin-top: 250px;
+}
+
+#header-index {
+    margin-left: 500px;
+}
+
+#header-index h1 {
+    font-size: 70px;
+    font-family: "Whisper", cursive;
+    margin-bottom: -20px;
+}
+
+.index-main-text h2 {
+    font-family: "Whisper", cursive;
+    margin-left: 560px;
+    font-size: 35px;
+}
+
+.buttons-index{
+    display: flex;
+}
+
+.buttons-index a {
+    text-decoration: none;
+    color: #ffffff;
+}
