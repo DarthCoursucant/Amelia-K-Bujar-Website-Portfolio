@@ -1,0 +1,63 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.projects-lists {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.first-project-listing, .second-project-listing, .third-project-listing {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.first-project-listing img, .second-project-listing img, .third-project-listing img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.hover-image {
+    width: 100%;
+    transition: filter 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.first-project-listing:hover .hover-image, .second-project-listing:hover .hover-image, .third-project-listing:hover .hover-image {
+    filter: blur(5px); /* Adjust blur amount as needed */
+}
+
+.first-project-listing:hover .overlay, .second-project-listing:hover .overlay, .third-project-listing:hover .overlay {
+    opacity: 1; /* Show the overlay text */
+}
+
+.first-project-listing {
+    margin-left: 250px;
+}
+
+.second-project-listing, .third-project-listing {
+    margin-left: 50px;
+}
