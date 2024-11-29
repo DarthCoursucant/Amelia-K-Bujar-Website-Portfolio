@@ -1,16 +1,20 @@
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-}
-
 .projects-lists {
     display: flex;
     margin-bottom: 50px;
+}
+
+.page-title-body h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Whisper", cursive;
+}
+
+.first-project-listing {
+    margin-left: 250px;
+}
+
+.second-project-listing, .third-project-listing {
+    margin-left: 50px;
 }
 
 .first-project-listing, .second-project-listing, .third-project-listing {
@@ -52,14 +56,6 @@ body {
 
 .first-project-listing:hover .overlay, .second-project-listing:hover .overlay, .third-project-listing:hover .overlay {
     opacity: 1; /* Show the overlay text */
-}
-
-.first-project-listing {
-    margin-left: 250px;
-}
-
-.second-project-listing, .third-project-listing {
-    margin-left: 50px;
 }
 
 .overlay p {
