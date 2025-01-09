@@ -43,9 +43,3 @@
     transform: scale(1.2);
     margin-left: 130px;
 }
-
-#paragraph-about p:hover, #paragraph-about-one p:hover, #paragraph-about-twice p:hover {
-    transform: scale(1.1);
-    margin-left: 60px;
-
-}
