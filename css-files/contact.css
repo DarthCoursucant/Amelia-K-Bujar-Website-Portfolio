@@ -4,14 +4,14 @@
 }
 
 .contact-container {
-    background-color: rgb(255 255 255 / 0.5);
+    background-color: rgba(165, 164, 164, 0.5);
     box-shadow: 9px 9px 9px rgba(70, 212, 233, 0.8);
     width: 1000px;
-    margin-left: 250px;
+    margin-left: 280px;
     text-align: center;
     border-radius: 20px;
     color: #ffffff;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 #contact-links a {
@@ -23,4 +23,15 @@
     font-family: "Whisper", cursive;
     font-size: 50px;
     text-transform: capitalize;
+}
+
+.github-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.linkedin-icon img, .instagra-icon img, .x-icon img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 5px;
 }
