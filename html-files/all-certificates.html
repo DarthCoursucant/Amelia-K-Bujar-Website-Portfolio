@@ -48,36 +48,8 @@
     </header>
 
 <main class="page-body">
-    <section class="choice-button-choices">
-        <!-- DESIGN BUTTON-->
-        <div class="show-certifactes-button">
-            <button onclick="showContainer('container1')">Design Certificates</button>
-        </div>
-        <!-- FRONT END BUTTON-->
-        <div class="show-certifactes-button">
-            <button onclick="showContainer('container2')">Front-End Certficates</button>
-        </div>
-        <!-- OTHER BUTTON -->
-        <div class="show-certifactes-button">
-            <button onclick="showContainer('container3')">Other Certificates</button>
-        </div>
-    </section>
 
-    <div id="container1" class="container">
-        <div id="title-container">
-            <h1>Design Certificiates</h1>
-        </div>
-        <div class="container-content">
-            <!-- CERTIFICATE ONE -->
-            <div class="certicate-only">
-                <a href="../media/certificates-file/layout.jpeg" target="_blank">
-                    <img src="../media/certificates-file/layout.jpeg" alt="Layout Certificate">
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div id="container2" class="container">
+    <article class="code-certficates-container">
         <div id="title-container">
             <h1>Front-End Certificates</h1>
         </div>
@@ -89,9 +61,23 @@
                 </a>
             </div>
         </div>
-    </div>
+    </article>
 
-    <div id="container3" class="container">
+    <article class="design-certificates-container">
+        <div id="title-container">
+            <h1>Design Certificiates</h1>
+        </div>
+        <div class="container-content">
+            <!-- CERTIFICATE ONE -->
+            <div class="certicate-only">
+                <a href="../media/certificates-file/layout.jpeg" target="_blank">
+                    <img src="../media/certificates-file/layout.jpeg" alt="Layout Certificate">
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <article class="other-certificates-container">
         <div id="title-container">
             <h1>Other Certificates</h1>
         </div>
@@ -100,12 +86,11 @@
                 <img src="../media/certificates-file/product-marketing-foundations.jpeg" alt="Product Marketing Foundations Certificate">
             </a>
         </div>
-    </div>
+    </article>
 
 </main>
     
 </body>
 
-<script src="../js-files/certificate-page.js"></script>
 <script src="../js-files/menu.js"></script>
 </html>
