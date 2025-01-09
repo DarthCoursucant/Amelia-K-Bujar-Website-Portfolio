@@ -68,6 +68,30 @@
 
 /* END 3D & ANIMATIONS */
 
+/* PHOTO AND VID */
+
+.photo-video-section {
+  margin-top: 100px;
+}
+
+/* END PHOTO AND VID */
+
+/* BLOG THING */
+
+.content-creation-section {
+  margin-top: 100px;
+}
+
+/* END BLOG THING */
+
+/* MARKETING */
+
+.marketing-section {
+  margin-top: 100px;
+}
+
+/* END MARKETING */
+
 #paragraph-about, #paragraph-about-one, #paragraph-about-twice {
   width: 1200px;
   text-transform: capitalize;
