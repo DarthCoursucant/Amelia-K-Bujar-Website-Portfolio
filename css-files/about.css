@@ -54,6 +54,10 @@
 
 /* 3D & ANIMATIONS */
 
+.decor-section-one {
+  margin-top: 30px;
+}
+
 .animation-section {
   margin-top: 100px;
 }
@@ -69,12 +73,8 @@
   text-transform: capitalize;
 }
 
-#header-about-twice h1, #header-about h1, #header-about-one h1 {
+#header-about-twice h1, #header-about h1, #header-about-one h1, .about-me-page-main-header h1 {
   font-family: "Whisper", cursive;
-}
-
-.decor-section-one {
-  margin-top: 30px;
 }
 
 #header-about-twice h1 {
@@ -100,5 +100,4 @@
 
 .about-me-page-main-header h1 {
   font-size: 50px;
-  font-family: "Whisper", cursive;
 }
