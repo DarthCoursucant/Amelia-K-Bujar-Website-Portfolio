@@ -1,4 +1,4 @@
-.choice-button-choices {
+.certicate-only {
     display: flex;
 }
 
@@ -22,17 +22,10 @@
     font-family: "Whisper", cursive;
 }
 
-
-button {
-    width: 230px;
-    height: 50px;
-    font-size: 20px;
-    background-color: rgba(255, 255, 255, 0.619);
-    border: 2px solid #000;
-    font-family: "Whisper", cursive;
-    margin-top: 50px;
+#title-container h1 {
+    font-size: 40px;
 }
 
-.show-certifactes-button {
-    margin-left: 200px;
+.other-certificates-container {
+    padding-bottom: 250px;
 }
