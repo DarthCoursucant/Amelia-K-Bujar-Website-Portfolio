@@ -1,60 +1,63 @@
 .vl {
-    border-left: 6px solid #ffffff;
-    height: 350px;
-    margin-left: 80px;
-    margin-top: -10px;
-  }
+  border-left: 6px solid #ffffff;
+  height: 350px;
+  margin-left: 80px;
+  margin-top: -10px;
+}
 
 .dot {
-    height: 25px;
-    width: 25px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 70px;
-    margin-top: 80px;
-  }
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 80px;
+}
 
-  #about-text-container {
-    margin-left: 150px;
-  }
+#about-text-container {
+  margin-left: 150px;
+}
 
-  #header-about h1, #header-about-one h1 {
-    margin-top: -385px;
-    font-family: "Whisper", cursive;
-  }
+#header-about-one h1 {
+  margin-top: -385px;
+}
 
-  #paragraph-about, #paragraph-about-one, #paragraph-about-twice {
-    width: 1200px;
-    text-transform: capitalize;
-  }
+#header-about h1 {
+  margin-top: -340px;
+}
 
-  #header-about-twice h1 {
-    font-family: "Whisper", cursive;
-  }
+#paragraph-about, #paragraph-about-one, #paragraph-about-twice {
+  width: 1200px;
+  text-transform: capitalize;
+}
+
+#header-about-twice h1, #header-about h1, #header-about-one h1 {
+  font-family: "Whisper", cursive;
+}
 
 .decor-section-one {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .decor-section-second {
-    margin-top: -30px;
+  margin-top: 100px;
 }
 
 #header-about-twice h1 {
-    margin-top: -690px;
+  margin-top: -690px;
 }
 
 .marketing-section, .decor-section-last {
-    margin-bottom: 300px;
+  margin-bottom: 300px;
 }
 
 .decor-section-last {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .about-me-container {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .about-me-page-main-header {
@@ -65,4 +68,8 @@
 .about-me-page-main-header h1 {
   font-size: 50px;
   font-family: "Whisper", cursive;
+}
+
+.decor-section-last-in-container {
+  margin-top: -80px;
 }
