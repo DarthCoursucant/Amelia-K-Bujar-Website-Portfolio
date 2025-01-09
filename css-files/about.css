@@ -15,17 +15,37 @@
   margin-top: 80px;
 }
 
+/* ABOUT THING */
+
 #about-text-container {
   margin-left: 150px;
-}
-
-#header-about-one h1 {
-  margin-top: -385px;
 }
 
 #header-about h1 {
   margin-top: -340px;
 }
+
+.decor-section-last-in-container {
+  margin-top: -80px;
+}
+
+/* END ABOUT THING */
+
+/* FRONT END THING */
+
+.decor-section-second {
+  margin-top: 100px;
+}
+
+#header-about-one h1 {
+  margin-top: -330px;
+}
+
+.decor-section-last-in-container-front {
+  margin-top: -50px;
+}
+
+/* END FRONT END THING*/
 
 #paragraph-about, #paragraph-about-one, #paragraph-about-twice {
   width: 1200px;
@@ -38,10 +58,6 @@
 
 .decor-section-one {
   margin-top: 30px;
-}
-
-.decor-section-second {
-  margin-top: 100px;
 }
 
 #header-about-twice h1 {
@@ -68,8 +84,4 @@
 .about-me-page-main-header h1 {
   font-size: 50px;
   font-family: "Whisper", cursive;
-}
-
-.decor-section-last-in-container {
-  margin-top: -80px;
 }
