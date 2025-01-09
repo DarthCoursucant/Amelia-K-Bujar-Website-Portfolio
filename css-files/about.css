@@ -33,6 +33,10 @@
 
 /* FRONT END THING */
 
+.front-end {
+  margin-top: 100px;
+}
+
 .decor-section-second {
   margin-top: 100px;
 }
@@ -46,6 +50,19 @@
 }
 
 /* END FRONT END THING*/
+
+
+/* 3D & ANIMATIONS */
+
+.animation-section {
+  margin-top: 100px;
+}
+
+.decor-section-last-in-container-animation {
+  margin-top: -50px;
+}
+
+/* END 3D & ANIMATIONS */
 
 #paragraph-about, #paragraph-about-one, #paragraph-about-twice {
   width: 1200px;
